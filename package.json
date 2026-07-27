@@ -114,6 +114,7 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
+    "prepare": "bob build",
     "clean": "git clean -dfX",
     "release": "semantic-release",
     "build": "bun run typecheck && bob build",
